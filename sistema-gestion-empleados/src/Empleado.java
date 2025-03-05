@@ -13,6 +13,9 @@ public abstract class Empleado {
     if(edad <= 18){
       System.err.println("No tienes edad para trabajar en esta empresa");
     }
+    if(salarioBase < 1000){
+      System.err.println("El salario no puede ser menor a 1000€");
+    }
   }
 
   //Escribiendo los getters y setters
