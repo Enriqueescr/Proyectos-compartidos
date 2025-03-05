@@ -3,7 +3,7 @@ public abstract class Empleado {
   //Escribo los atributos de mi clase abstracta
   private String nombre;
   private int edad;
-  private double salarioBase;
+  protected double salarioBase;
 
   //A continuación escribo el constructor de la clase Empleado
   public Empleado(String nombre, int edad, double salarioBase){
