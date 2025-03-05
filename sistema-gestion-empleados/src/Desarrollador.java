@@ -1,6 +1,6 @@
 public class Desarrollador extends Empleado {
 
-double horasExtra;
+double horasExtra=30;
 
 public Desarrollador(String nombre, int edad, double salarioBase){
     super(nombre, edad, salarioBase);
