@@ -6,7 +6,7 @@ public abstract class Empleado {
   private double salarioBase;
 
   //A continuación escribo el constructor de la clase Empleado
-  public Empleado(String nombre, int edad, int salarioBase){
+  public Empleado(String nombre, int edad, double salarioBase){
     this.nombre = nombre;
     this.edad = edad;
     this.salarioBase = salarioBase;
