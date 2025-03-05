@@ -12,6 +12,7 @@ public class Gerente extends Empleado {
 
     }
 
+<<<<<<< HEAD
     @Override
     double calcularSalario() {
         // TODO Auto-generated method stub
@@ -19,6 +20,9 @@ public class Gerente extends Empleado {
           return salarioTotal ; 
     }
 
+=======
+    //Hola soy dario 
+>>>>>>> 1268ea6501bb96c74c6a349d5887f2a67a5d6950
 
 
 
