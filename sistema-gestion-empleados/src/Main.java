@@ -14,11 +14,8 @@ public class Main {
          listaEmpleados.add(1, gerente2 );
          listaEmpleados.add(2, desarrolladorRemoto2);
 
-                System.out.println(desarrollador2.toString());
-                System.out.println(gerente2.toString());
-                System.out.println(desarrolladorRemoto2.toString());
-
-
+                
+            
 
 
                     desarrollador2.calcularSalario();
