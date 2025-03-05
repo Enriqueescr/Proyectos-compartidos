@@ -40,7 +40,7 @@ public abstract class Empleado {
   abstract double calcularSalario();
 
   public void mostrarInfo(){
-    System.out.println("");
+    System.out.println("La info de este empleado es: nombre = " + nombre + " edad = " + edad + " salario base = " + salarioBase);
   }
 
 
