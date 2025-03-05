@@ -1,5 +1,5 @@
 public class Gerente extends Empleado {
-    int bono;
+    double salario;
 
     public Gerente(String nombre, int edad, double salarioBase){
         super(nombre, edad, edad);
