@@ -23,7 +23,26 @@ public abstract class Empleado {
     return this.nombre = nombre;
   }
 
-  
+  public void getEdad(){
+    System.out.println("La edad del empleado es: " + edad);
+  }
+  public int setEdad(int edad){
+    return this.edad = edad;
+  }
+
+  public void getSalarioBase(){
+    System.out.println("El salario base es: " + salarioBase);
+  }
+  public double setSalarioBase(double salarioBase){
+    return this.salarioBase = salarioBase;
+  }
+
+  abstract double calcularSalario();
+
+  public void mostrarInfo(){
+    System.out.println("");
+  }
+
 
 
 
