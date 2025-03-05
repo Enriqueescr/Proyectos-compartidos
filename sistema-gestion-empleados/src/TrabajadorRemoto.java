@@ -1,8 +1,15 @@
 public interface TrabajadorRemoto  {
 
     static void conectarseRemotamente() {
+        boolean tieneInternet = true;
 
-          System.out.println("Se encuentra conectado remotamente");  
+        if (tieneInternet == true ) {
+            System.out.println("Se encuentra conectado remotamente");
+        }else{
+            System.out.println("ConexionException");
+
+        }
+            
 
     }
 
