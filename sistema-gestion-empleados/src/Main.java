@@ -7,7 +7,7 @@ public class Main {
         ArrayList <Empleado> listaEmpleados = new ArrayList<>();
 
         Desarrollador desarrollador2 = new Desarrollador("Dario", 20, 12000);
-        Gerente gerente2 = new Gerente("Avocadp", 20, 1999);
+        Gerente gerente2 = new Gerente("Avocado", 20, 1999);
         DesarrolladorRemoto desarrolladorRemoto2 = new DesarrolladorRemoto("Daritoto", 20, 99999);
 
          listaEmpleados.add(0, desarrollador2);
@@ -18,7 +18,7 @@ public class Main {
             
 
 
-                    desarrollador2.calcularSalario();
+        desarrollador2.calcularSalario();
 
         }
     }

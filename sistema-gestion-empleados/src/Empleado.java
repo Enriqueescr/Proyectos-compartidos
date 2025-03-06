@@ -10,11 +10,20 @@ public abstract class Empleado {
     this.nombre = nombre;
     this.edad = edad;
     this.salarioBase = salarioBase;
-    if(edad <= 18){
-      System.err.println("No tienes edad para trabajar en esta empresa");
+    try{
+      if(edad < 18){
+        throw new IllegalArgumentException("No tienes edad para trabajar en esta empresa");
+      }
+    }catch (IllegalArgumentException e){
+      System.out.println("Excepción capturada " + e.getMessage());
     }
-    if(salarioBase < 1000){
-      System.err.println("El salario no puede ser menor a 1000€");
+    
+    try {
+      if(salarioBase < 1000){
+        throw new IllegalArgumentException("El salario no puede ser menor a 1000€");
+      }
+    } catch (IllegalArgumentException e) {
+      System.out.println("Excepción capturada: " + e.getMessage());
     }
   }
 
