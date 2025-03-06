@@ -14,8 +14,9 @@ public class Main {
          listaEmpleados.add(1, gerente2 );
          listaEmpleados.add(2, desarrolladorRemoto2);
 
-                
-            
+         for (Empleado empleado : listaEmpleados) {
+            empleado.mostrarInfo(); 
+        }
 
 
         desarrollador2.calcularSalario();
